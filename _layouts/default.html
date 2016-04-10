@@ -29,16 +29,14 @@
       </footer>
     </div>
 
-    {% if site.analytics_id %}
-     <script>
-       (function(a,n,d,r,e,w,j){a['GoogleAnalyticsObject']=e;a[e]=a[e]||function(){
-       (a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date();w=n.createElement(d),
-       j=n.getElementsByTagName(d)[0];w.async=1;w.src=r;j.parentNode.insertBefore(w,j)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-       ga('create', '{{ site.analytics_id }}', 'auto');
-       ga('send', 'pageview');
-     </script>
-    {% endif %}
+    <script>
+      (function(a,n,d,r,e,w,j){a['GoogleAnalyticsObject']=e;a[e]=a[e]||function(){
+                (a[e].q=a[e].q||[]).push(arguments)},a[e].l=1*new Date();w=n.createElement(d),
+              j=n.getElementsByTagName(d)[0];w.async=1;w.src=r;j.parentNode.insertBefore(w,j)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-30335032-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 
   </body>
 </html>
