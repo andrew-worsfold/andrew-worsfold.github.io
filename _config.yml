@@ -1,0 +1,25 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Andrew Worsfold
+url:                 http://andrewworsfold.com
+baseurl:             ""
+paginate:            5
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Andrew Worsfold
+  url:               https://twitter.com/andrewjworsfold
+  email:             andrew.worsfold@gmail.com
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
