@@ -24,4 +24,4 @@ gems:
   - jekyll-paginate
   - jekyll-gist
 
-analytics_id:         UA-30335032-1
+#analytics_id:         UA-30335032-1
